@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix admin_front\" \"node backend_project/server.js\""
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "vue-router": "^4.5.1"
+  }
+}
